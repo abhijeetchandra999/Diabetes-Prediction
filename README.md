@@ -45,69 +45,15 @@ EDA → preprocessing → modeling → evaluation → inference.
   <ol>
     <li><b>EDA:</b> check distributions, missing values, outliers; visualize relationships.</li>
     <li><b>Preprocessing:</b> handle invalid zeros, scaling; train/test split.</li>
-    <li><b>Modeling:</b> Logistic Regression, Random Forest, Decision Tree, KNN (choose best).</li>
+    <li><b>Modeling:</b>  KNN .</li>
     <li><b>Evaluation:</b> Accuracy, Precision, Recall, F1, Confusion Matrix.</li>
     <li><b>Prediction:</b> final model predicts diabetes for new inputs.</li>
   </ol>
 </details>
 
-<!-- Performance -->
-<h2>📈 Model Performance</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th>Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Logistic Regression</td><td>XX%</td></tr>
-    <tr><td>Random Forest</td><td>XX%</td></tr>
-    <tr><td>Decision Tree</td><td>XX%</td></tr>
-    <tr><td>KNN</td><td>XX%</td></tr>
-  </tbody>
-</table>
-<p><i>Replace XX% with your actual scores.</i></p>
-
-<!-- How to run -->
-<h2>🚀 How to Run</h2>
-<ol>
-  <li>Clone the repo:</li>
-</ol>
-<pre><code>git clone https://github.com/abhijeetchandra999/Diabetes-Prediction.git
-cd Diabetes-Prediction
-</code></pre>
-<ol start="2">
-  <li>Install dependencies:</li>
-</ol>
-<pre><code>pip install -r requirements.txt
-</code></pre>
-<ol start="3">
-  <li>Open the notebook:</li>
-</ol>
-<pre><code>jupyter notebook
-</code></pre>
-
-<!-- Structure -->
-<h2>📂 Project Structure</h2>
-<pre><code>Diabetes-Prediction/
-├─ Project_Diabetes_prediction.ipynb   # Main notebook
-├─ requirements.txt                    # Dependencies
-├─ README.md                           # This file
-└─ data/                               # (optional) dataset files
-</code></pre>
-
-<!-- Future work -->
-<h2>✅ Future Work</h2>
-<ul>
-  <li>Hyperparameter tuning (GridSearchCV/RandomizedSearchCV)</li>
-  <li>Advanced models: XGBoost / LightGBM</li>
-  <li>Deployment with Flask or Streamlit</li>
-</ul>
-
 <!-- Contact -->
 <h2>📧 Contact</h2>
 <p>
   GitHub: <a href="https://github.com/abhijeetchandra999">abhijeetchandra999</a><br/>
-  Feel free to open an issue or PR!
+  Feel free to open an issue!
 </p>
